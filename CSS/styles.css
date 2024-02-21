@@ -367,3 +367,84 @@ ul {
     position: absolute;
     z-index: -1;
 }
+
+
+
+/*============== Enrollment Page ==============*/
+/* Enrollment Section */
+.section_process_enrollment_mini {
+    margin-top: 65px;
+    margin-bottom: 150px;
+}
+.section_process_enrollment_title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #1340B1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 63px;
+}
+
+.pages_process_cards {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+.cards_process{
+    display: grid;
+    width: 28%;
+    height: 175px;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid #555;
+    color: #555;
+    transition: color 0.5s;
+}
+.cards_process:hover {
+    border: 1px solid #DD3438;
+    color: #DD3438;
+}
+.cards_process:hover .card_image_vector path {
+    stroke: #DD3438; /* Cambia el color del contorno del SVG */
+}
+.cards_process:hover .card_image_vector_2 path {
+    stroke: #DD3438; /* Cambia el color del contorno del SVG */
+}
+
+.card_name {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.card_name_title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.card_name_sub {
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.cards_grades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 40px;
+    color: #000000;
+    background-color: #D9D9D9;
+    transition: color 0.2s; 
+}
+.cards_grades:hover {
+    color: #D9D9D9;
+    background-color: #DD3438;
+}
+.card_grade_name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+}
