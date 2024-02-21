@@ -497,3 +497,17 @@ ul {
     margin-bottom: 10px;
     white-space: pre-line;
 }
+.instructions_enrollment_unique{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    text-align: center; /* Centra el elemento */
+}
+.step_instruction_unique{
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+}
