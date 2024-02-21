@@ -413,7 +413,6 @@ ul {
 .cards_process:hover .card_image_vector_2 path {
     stroke: #DD3438; /* Cambia el color del contorno del SVG */
 }
-
 .card_name {
     margin-bottom: 0px;
     margin-top: 15px;
@@ -427,6 +426,20 @@ ul {
     text-align: center;
     font-weight: 600;
     font-size: 13px;
+}
+
+.cards_process_active{
+    display: grid;
+    width: 28%;
+    height: 175px;
+    justify-items: center;
+    align-content: center;
+    border: 1px solid #DD3438;
+    color: #DD3438;
+}
+.card_image_vector_active {
+    width: 30%;
+    stroke: #DD3438;
 }
 
 .cards_grades{
@@ -447,4 +460,40 @@ ul {
     text-align: center;
     font-weight: 500;
     font-size: 13px;
+}
+
+/* Intructions Section */
+.instructions_enrollment{
+    display: grid;
+    grid-template-rows: 70%;
+    grid-template-columns: 40% 40%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 24%;
+}
+
+.step_instruction{
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.step_name{
+    font-size: 12px;
+    font-weight: 500;
+    color: #DD3438;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.step_text{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: pre-line;
 }
