@@ -291,7 +291,7 @@ ul {
     font-size: 29px;
 }
 
-.splide__slide{
+.section_opinion .splide .splide__track .splide__list .splide__slide{
     display: grid;
     justify-items: center;
     align-content: center;
@@ -798,4 +798,256 @@ ul {
 .splide_logre .logre_img{
     margin-top: 30px;
     padding-bottom: 30px;
+}
+
+/*========== Propuesta Educativa ==============*/
+.header_2v{
+    font-family: var(--font-main);
+    background: #F7F7F7;
+    color: #27292D;
+}
+.header_educational{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 540px;
+}
+.header_educational .info_educational{
+    justify-self: left;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.info_educational .title_educational{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 44px;
+    font-weight: 700;
+    color: #1340B1;
+    white-space: pre-line;
+}
+.info_educational .parr_educational{
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    white-space: pre-line;
+}
+
+.header_educational .nav_educational{
+    display: flex;
+    justify-content: center;
+    background: #1340B1;
+}
+.nav_educational .social_link{
+    margin: 3%;
+    color: #fff;
+}
+.nav_educational .social_svg:hover{
+    transition: 0.2s;
+    transition-timing-function: ease;
+    height: 40px;
+}
+
+/* Nuestros Valores */
+.section_info_our{
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 21%);
+    grid-gap: 5%;
+}
+.section_info_our .our_card{
+    border-radius: 22px;
+    background: #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 7%;
+}
+.our_card .our_title{
+    color: #1340B1;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.our_card .our_parr{
+    color: #555;
+    font-size: 10px;
+    font-weight: 600;
+    white-space: pre-line;
+    text-align: left;
+    margin-top: 5px;
+}
+.grade_info{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+}
+.grade_info .grade_parr{
+    color: #555;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-right: 35px;
+    margin-top: 15px;
+}
+.grade_info .grade_title{
+    color: #1340B1;
+    font-size: 44px;
+    font-weight: 700;
+    white-space: pre-line;
+    text-align: right;
+}
+.section_educative_proposal .line_1{
+    width: 90%;
+    height: 1px;
+}
+
+
+.grade_courses{
+    display: grid;
+    grid-template-columns: 14.7% 27% 58.3%;
+    grid-gap: 1px;
+}
+.grade_courses .blue_bg{
+    width: 100%;
+    background: #1340B1;
+}
+.grade_courses .names_courses{
+    padding: 7%;
+    width: 100%;
+    background: #1340B1;
+}
+.names_courses .section_title{
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 800;
+    white-space: pre-line;
+}
+.names_courses .name_course{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20%;
+}
+.info_courses{
+    margin-top: 22%;
+    padding-left: 30px;
+}
+.info_courses .info_course{
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-bottom: 7.5%;
+}
+
+.grade_info2{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: -60px;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.grade_info2 .grade_parr{
+    color: #555;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: right;
+}
+.grade_info2 .grade_title{
+    color: #1340B1;
+    font-size: 44px;
+    font-weight: 700;
+    white-space: pre-line;
+}
+
+
+.grade_courses2{
+    display: grid;
+    grid-template-columns: 58.3% 27% 14.7%;
+    grid-gap: 1px;
+    margin-bottom: 7%;
+}
+.grade_courses2 .blue_bg{
+    width: 100%;
+    background: #1340B1;
+}
+.grade_courses2 .names_courses{
+    padding: 7%;
+    width: 100%;
+    background: #1340B1;
+    text-align: right;
+}
+.grade_courses2 .names_courses .section_title{
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 800;
+    white-space: pre-line;
+}
+.grade_courses2 .names_courses .name_course{
+    display: flex;
+    justify-content: right;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20%;
+}
+.info_courses2{
+    margin-top: 22%;
+    padding-left: 30px;
+}
+.info_courses2 .info_course{
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-bottom: 7.5%;
+    text-align: right;
+    margin-right: 10%;
+}
+.section_educative_proposal .line_2{
+    width: 90%;
+    height: 1px;
+    transform: translateX(42%);
+}
+
+/* Servicios Adicionales */
+.adicional_services{
+    padding-top: 10%;
+    background-color: #F5F5F5;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service .service_image{
+    width: 50%;
+}
+.service .service_info{
+    width: 50%;
+    white-space: pre-line;
+    font-weight: 700;
+}
+.service_info .service_title{
+    color: #2D2D2D;
+    font-size: 20px;
+}
+.service_info .service_name{
+    color: #1340B1;
+    font-size: 44px;
+}
+.service_info .service_parr{
+    color: #2D2D2D;
+    font-size: 16px;
 }
